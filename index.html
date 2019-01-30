@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<meta charset="utf-8">
+<title>indxeddbDemo</title>
+<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
+<script type="text/javascript" src="jsstore/jsstore.js"></script>
+<link rel="stylesheet" type="text/css" href="a.css">
+</head>
+
+
+
+
+    
+    
+<body>
+    <h1 align="center" id="dummy">拼音首字母Demo by WWJ</h1>
+
+    <form style="position: relative ; display: block;">
+      输入拼音首字母：
+
+
+      <span id="s_kw_wrap" class="bg s_ipt_wr quickdelete-wrap">
+        <input onkeypress="daekeypress(event);" style="font-size: xx-large" onkeydown="javascript:keypressed(event)"  oninput="javascript:OnInputC(event)" type="text" class="s_ipt" name="firstpinyin" id="kwinput" maxlength="100">
+
+      </span>
+
+
+        <div id="pinyinmom" class="bdsug bdsugbg" style="position: absolute ;height: auto; display: none; cursor: pointer;left: 120px;background-color: white;border:1px solid gray;width: 178px; padding-inline-start: 0px">
+            <ul id="pinyinlist" style="margin-block-start:0;margin-block-end:0;list-style-type:none;display: block; padding-inline-start: inherit; ">
+                <!--<li data-key="三星洗衣机售后电话" class="sug-overflow">三星洗衣<strong>机售</strong>后电话</li>-->
+                <!--<li data-key="松下蓄电池总代理" class="sug-overflow">松下蓄电池总代理</li>-->
+                <!--<li data-key="数学学习方法" class="sug-overflow">数学学习方法</li>-->
+                <!--<li data-key="上下限报警电子秤" class="sug-overflow">上下限报警电子秤</li>-->
+                <!--<li data-key="松下蓄电池厂家" class="sug-overflow">松下蓄电池厂家</li>-->
+                <!--<li data-key="塘厦小产权房" class="sug-overflow">塘厦小产权房</li>-->
+                <!--<li data-key="三星洗衣机售后" class="sug-overflow">三星洗衣机售后</li>-->
+                <!--<li data-key="三星洗衣机维修电话" class="sug-overflow">三星洗衣机维修电话</li>-->
+                <!--<li data-key="陕西信合" class="sug-overflow">陕西信合</li>-->
+                <!--<li data-key="圣墟" class="sug-overflow">圣墟</li>-->
+            </ul>
+        </div>
+
+
+
+
+    </form>
+
+
+<br/>
+
+
+
+    <button align="center" type="button" onclick="randtable(event)" style="display:block;margin:0 auto;font-size: xx-large">随机选</button>
+
+
+<!--<div align="center" >-->
+  <!--<p>中文 &#160&#160&#160&#160&#160 拼英</p>-->
+    <!--<p>撒大大              sds<p>-->
+    <!--<p>大师傅似的           sdas<p>-->
+    <!--<p>小支持支持            sdcx<p>-->
+    <!--<p>大飒飒               sdds<div>-->
+<!--</div>-->
+
+    <br/>
+
+
+
+
+
+
+  <table id="showtableer" border="1" align="center" style="font-size: xx-large">
+   <!--<caption><strong>汉字 &nbsp; 拼音</strong></caption>-->
+    <thead>
+    <tr>
+      <th>汉字</th>
+      <th>拼音首字母</th>
+    </tr>
+    </thead>
+
+
+  </table>
+    <br/>
+    <footer style="display:block;margin:0 auto; " >2019 wwj</footer>
+    <script type="text/javascript" src="myinbdexeddb.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+   
+
